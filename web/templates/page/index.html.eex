@@ -1,0 +1,4 @@
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}", name: "Turnip Your Health!" %></h2>
+  <p class="lead">Tasty vegetarian meals with no prep.</p>
+</div>
