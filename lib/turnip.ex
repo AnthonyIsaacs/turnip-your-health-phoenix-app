@@ -9,7 +9,7 @@ defmodule Turnip do
     # Define workers and child supervisors to be supervised
     children = [
       # Start the Ecto repository
-      # supervisor(Turnip.Repo, []),
+      supervisor(Turnip.Repo, []),
       # Start the endpoint when the application starts
       supervisor(Turnip.Endpoint, []),
       # Start your own worker by calling: Turnip.Worker.start_link(arg1, arg2, arg3)
